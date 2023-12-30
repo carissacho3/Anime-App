@@ -12,10 +12,6 @@ import Link from "next/link";
 
 const AnimeDetail = ({ detail }) => {
 
-  if (!detail) {
-    return <div>No data available</div>;
-  }
-
   const { data: video, error: videoData } = useSWR(
     `https://api.jikan.moe/v4/anime/${detail.data.mal_id}/videos`
   );
@@ -29,7 +25,7 @@ const AnimeDetail = ({ detail }) => {
     return <div>Error loading</div>;
   }
 
-  if (!video || !characters || !staff) {
+  if (!video || !characters || !staff || !detail) {
     return <div>loading</div>;
   }
 

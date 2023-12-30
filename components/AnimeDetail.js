@@ -347,7 +347,7 @@ const AnimeDetail = ({ detail }) => {
                   <Col md={2}>
                     <p>{anime.relation}:</p>
                   </Col>
-                  <Col>
+                  <Col key={anime.mal_id}>
                     {anime.entry.map((e, index) => {
                       if (anime.relation === "Adaptation") {
                         return (

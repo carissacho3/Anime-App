@@ -22,11 +22,7 @@ const AiringAnimeComponent = () => {
     });
   };
 
-  if(!currentPage)
-  {
-    return null
-  }
-  
+
   if (error) {
     return <div>Error loading</div>;
   }

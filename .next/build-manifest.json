@@ -1,99 +1,36 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
+    "static/chunks/polyfills.js"
   ],
-  "devFiles": [],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/mzBssMPfFdBgqtEeMTBn-/_buildManifest.js",
-    "static/mzBssMPfFdBgqtEeMTBn-/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack-ee7e63bc15b31913.js",
-      "static/chunks/framework-5429a50ba5373c56.js",
-      "static/chunks/main-fdf56fc4602be5bb.js",
-      "static/chunks/pages/index-ef2e2a053abb957e.js"
-    ],
-    "/AiringAnime": [
-      "static/chunks/webpack-ee7e63bc15b31913.js",
-      "static/chunks/framework-5429a50ba5373c56.js",
-      "static/chunks/main-fdf56fc4602be5bb.js",
-      "static/chunks/pages/AiringAnime-794705a2d52f9401.js"
-    ],
-    "/AllAnime": [
-      "static/chunks/webpack-ee7e63bc15b31913.js",
-      "static/chunks/framework-5429a50ba5373c56.js",
-      "static/chunks/main-fdf56fc4602be5bb.js",
-      "static/chunks/pages/AllAnime-196be69a5ab8e372.js"
-    ],
-    "/FavoriteAnime": [
-      "static/chunks/webpack-ee7e63bc15b31913.js",
-      "static/chunks/framework-5429a50ba5373c56.js",
-      "static/chunks/main-fdf56fc4602be5bb.js",
-      "static/chunks/pages/FavoriteAnime-831f7dfc5b09bea4.js"
-    ],
-    "/MovieAnime": [
-      "static/chunks/webpack-ee7e63bc15b31913.js",
-      "static/chunks/framework-5429a50ba5373c56.js",
-      "static/chunks/main-fdf56fc4602be5bb.js",
-      "static/chunks/pages/MovieAnime-d758b2e14b8367bb.js"
-    ],
-    "/OnaAnime": [
-      "static/chunks/webpack-ee7e63bc15b31913.js",
-      "static/chunks/framework-5429a50ba5373c56.js",
-      "static/chunks/main-fdf56fc4602be5bb.js",
-      "static/chunks/pages/OnaAnime-2c822a869b178f90.js"
-    ],
-    "/OvaAnime": [
-      "static/chunks/webpack-ee7e63bc15b31913.js",
-      "static/chunks/framework-5429a50ba5373c56.js",
-      "static/chunks/main-fdf56fc4602be5bb.js",
-      "static/chunks/pages/OvaAnime-184c86674bf14b33.js"
-    ],
-    "/PopularAnime": [
-      "static/chunks/webpack-ee7e63bc15b31913.js",
-      "static/chunks/framework-5429a50ba5373c56.js",
-      "static/chunks/main-fdf56fc4602be5bb.js",
-      "static/chunks/pages/PopularAnime-4603381fda067702.js"
-    ],
-    "/SpecialAnime": [
-      "static/chunks/webpack-ee7e63bc15b31913.js",
-      "static/chunks/framework-5429a50ba5373c56.js",
-      "static/chunks/main-fdf56fc4602be5bb.js",
-      "static/chunks/pages/SpecialAnime-79e3455e57c5d845.js"
-    ],
-    "/TvSeriesAnime": [
-      "static/chunks/webpack-ee7e63bc15b31913.js",
-      "static/chunks/framework-5429a50ba5373c56.js",
-      "static/chunks/main-fdf56fc4602be5bb.js",
-      "static/chunks/pages/TvSeriesAnime-71a6bf11b0bec990.js"
-    ],
-    "/UpcomingAnime": [
-      "static/chunks/webpack-ee7e63bc15b31913.js",
-      "static/chunks/framework-5429a50ba5373c56.js",
-      "static/chunks/main-fdf56fc4602be5bb.js",
-      "static/chunks/pages/UpcomingAnime-c35358628d392374.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
     ],
     "/_app": [
-      "static/chunks/webpack-ee7e63bc15b31913.js",
-      "static/chunks/framework-5429a50ba5373c56.js",
-      "static/chunks/main-fdf56fc4602be5bb.js",
-      "static/css/455380e8d74e6160.css",
-      "static/chunks/pages/_app-a4ef46377f58bb3e.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
     ],
     "/_error": [
-      "static/chunks/webpack-ee7e63bc15b31913.js",
-      "static/chunks/framework-5429a50ba5373c56.js",
-      "static/chunks/main-fdf56fc4602be5bb.js",
-      "static/chunks/pages/_error-b6491f42fb2263bb.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
     ],
     "/animeDetail/[id]": [
-      "static/chunks/webpack-ee7e63bc15b31913.js",
-      "static/chunks/framework-5429a50ba5373c56.js",
-      "static/chunks/main-fdf56fc4602be5bb.js",
-      "static/chunks/pages/animeDetail/[id]-d777e1d707770907.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/animeDetail/[id].js"
     ]
   },
   "ampFirstPages": []

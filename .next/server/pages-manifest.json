@@ -4,5 +4,5 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/animeDetail/[id]": "pages/animeDetail/[id].js",
-  "/AllAnime": "pages/AllAnime.js"
+  "/AiringAnime": "pages/AiringAnime.js"
 }

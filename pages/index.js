@@ -6,7 +6,7 @@ import {
   CardBody,
   CardTitle,
   ListGroup,
-  ListGroupItem,
+  ListGroupItem,Image
 } from "react-bootstrap";
 import Link from "next/link";
 import useSWR from "swr";
@@ -56,7 +56,7 @@ export default function Home() {
                           <span>{index + 1}</span>
                         </Col>
                         <Col md={2}>
-                          <img
+                          <Image
                             src={animeAiring.images.jpg.small_image_url}
                             alt={animeAiring.title}
                             width={50}
@@ -101,7 +101,7 @@ export default function Home() {
                           <span>{index + 1}</span>
                         </Col>
                         <Col md={2}>
-                          <img
+                          <Image
                             src={animesUpcoming.images.jpg.small_image_url}
                             alt={animesUpcoming.title}
                             width={50}
@@ -147,7 +147,7 @@ export default function Home() {
                           <span>{index + 1}</span>
                         </Col>
                         <Col md={2}>
-                          <img
+                          <Image
                             src={animePop.images.jpg.small_image_url}
                             alt={animePop.title}
                             width={50}

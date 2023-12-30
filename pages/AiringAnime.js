@@ -21,11 +21,11 @@ const AiringAnimeComponent = () => {
     });
   };
 
-  if (error || !router) {
+  if (error) {
     return <div>Error loading</div>;
   }
 
-  if (!allAnime) {
+  if (!allAnime || !router) {
     return <div>loading</div>;
   }
 

@@ -25,7 +25,7 @@ const AnimeDetail = ({ detail }) => {
     return <div>Error loading</div>;
   }
 
-  if (!video || !characters || !staff || !detail) {
+  if (!video || !characters || !staff) {
     return <div>loading</div>;
   }
 

@@ -1,8 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/AiringAnime": "pages/AiringAnime.js",
-  "/animeDetail/[id]": "pages/animeDetail/[id].js",
-  "/": "pages/index.js"
-}
+{"/_app":"pages/_app.js","/_error":"pages/_error.js","/_document":"pages/_document.js","/AiringAnime":"pages/AiringAnime.html","/AllAnime":"pages/AllAnime.html","/FavoriteAnime":"pages/FavoriteAnime.html","/MovieAnime":"pages/MovieAnime.html","/OnaAnime":"pages/OnaAnime.html","/OvaAnime":"pages/OvaAnime.html","/PopularAnime":"pages/PopularAnime.html","/TvSeriesAnime":"pages/TvSeriesAnime.html","/UpcomingAnime":"pages/UpcomingAnime.html","/SpecialAnime":"pages/SpecialAnime.html","/animeDetail/[id]":"pages/animeDetail/[id].html","/api/hello":"pages/api/hello.js","/":"pages/index.html","/404":"pages/404.html"}

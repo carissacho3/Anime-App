@@ -8,6 +8,10 @@ const AiringAnimeComponent = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const router = useRouter();
 
+  if(!currentPage)
+  {
+    return null
+  }
   const { data: allAnime, error } = useSWR(
     `https://api.jikan.moe/v4/top/anime?filter=airing&page=${currentPage}`
   );
@@ -25,7 +29,7 @@ const AiringAnimeComponent = () => {
     return <div>Error loading</div>;
   }
 
-  if (!allAnime || !router) {
+  if (!allAnime) {
     return <div>loading</div>;
   }
 
